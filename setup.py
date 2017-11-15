@@ -9,7 +9,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-	name='reusable_blog_app',
+	name='reusable_blog',
 	version='1.0.0',
 	packages=['reusable_blog'],
 	include_package_data=True,

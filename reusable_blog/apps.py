@@ -5,4 +5,4 @@ from django.apps import AppConfig
 
 
 class BlogConfig(AppConfig):
-    name = 'reusable_blog_app'
+    name = 'reusable_blog'
