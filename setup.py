@@ -9,16 +9,16 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-	name='reusable-blog-app',
+	name='reusable_blog_app',
 	version='1.0.0',
 	packages=['reusable_blog'],
 	include_package_data=True,
 	license='BSD License', #  example license
 	description='A simple Django app to create blogs',
 	long_description=README,
-	url='http://www.example.com',
-	author='My Name',
-	author_email='yourname@example.com',
+	url='https://github.com/kilik2021/reusable_blog_app',
+	author='Justin Robinson',
+	author_email='kilik2021@users.noreply.github.com',
 	classifiers=[
 		'Environment :: Web Environment',
 		'Frameword :: Django',
